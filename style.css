@@ -1,0 +1,217 @@
+@import url('https://fonts.googleapis.com/css2?family=Madimi+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@0,100..700;1,100..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Slab:ital,wght@0,100..700;1,100..700&display=swap');
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family: "Madimi One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.Hero{
+    width: 100%;
+    height: 100vh;
+}
+
+.title-container{
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #ccc;
+    top: 40px;
+    padding-top: 40px;
+    padding-left: 5%;
+    padding-right: 5%;
+    padding-bottom: 2%;
+    box-shadow: 5px 2px 5px black;
+}
+
+.fa-brands{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.fa-brands:hover{
+    color: #ea1538;
+    transition: .3s ease-in;
+}
+
+.fa-facebook{
+    color: blue;
+}
+
+.fa-instagram{
+    color: #ea1538;
+}
+
+.whats-app button{
+    background-color: #ea1538;
+    padding: 10px 20px;
+    color: #fff;
+    font-size: 18px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: bold;
+    border: none;
+
+}
+
+.title-container button:hover{
+    background-color: transparent;
+    border-width: 3px;
+    border-style: solid;
+    border-color: #ea1538;
+    color: #ea1538;
+}
+nav{
+    background-color: #ccc;
+    width: 100%;
+    top: 15px;
+    padding-top: 15px;
+    padding-left: 2%;
+    padding-right: 2%;
+    padding-bottom: 1px;
+    margin-top: 1px;
+    justify-content: center;
+    align-items: center;
+}
+
+ul li{
+    display: inline-block;
+    list-style: none;
+    padding-right: 40px;
+}
+
+ul li a{
+    text-decoration: none;
+    color: #000;
+    font-size: 15px;
+    font-family: 'Times New Roman', Times, serif;
+}
+ul li a:hover{
+    color: #ea1538;
+    border: none;
+    border: 2px solid #ea1538;
+    padding: 5px 10px;
+    border-radius: 50px;
+   
+    
+}
+
+.fa-angle-down{
+    font-size: 10px;
+    padding-left: 10px;
+} 
+
+.head-container{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)), url("graduatstudent.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: none;
+    padding-top: 80px;
+    padding-left: 2%;
+
+}
+.head-container h5{
+    color: #fff;
+    padding-bottom: 60px;
+}
+.head-container h1{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vmin;
+    color: #fff;
+    font-weight: bold;
+}
+.head-container h1 p{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 10vmin;
+    color: #fff;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.head-container p{
+    color: #fff;
+
+}
+.actiontab button{
+    color:#ea1538;
+    background-color: #d5d2d2;
+    padding: 10px 20px;
+    border: none;
+    width: 20%;
+    
+}
+.fa-arrow-right{
+    padding-right: 20px;
+}
+.actiontab button:hover{
+    color: #000;
+}
+
+.info-option{
+    padding-top: 40px;
+}
+
+.info-option h1{
+    padding-top: 40px;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.info-section{
+    display: flex;
+    padding: 20px;
+    padding-right: 40px;
+}
+.info-section h1{
+    color: #ccc;
+}
+.info-section span{
+    color: #ea1538;
+    font-size: 20px;
+    padding-bottom: 5px;
+}
+.info-one{
+    padding-right: 30px;
+}
+.info-two{
+    padding-right: 30px;
+}
+
+.info-three{
+    padding-right: 30px;
+}
+.info-section .info-more span{
+    color: #000;
+    font-size: 14px;
+}
+.info-section .info-more span:hover{
+    color: #ea1538;
+}
+.fa-arrow-right{
+    padding-left: 10px;
+}
+.info-form{
+    display: flex;
+     align-items: center;
+    justify-content: space-between;
+    padding-left: 50px;
+
+}
+.student-info{
+    width: 50%;
+    font-size: 18px;
+}
+.wrapper{
+    width: 50%;
+    background-color: #ccc;
+    
+}
+
+
+
